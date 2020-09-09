@@ -11,7 +11,7 @@
 > * [论文下载链接](https://arxiv.org/abs/1709.04875v4)
 > * [实现链接tf](https://github.com/VeritasYin/STGCN_IJCAI-18)
 
-* 基于时空动态网络(STDN)的交通流预测(RevisitingSpatial-TemporalSimilarity:ADeepLearningFramework forTrafﬁcPrediction) 2019AAAI
+* 基于注意力机制的时空图卷积网络(ASTGCN)交通流预测(AttentionBasedSpatial-TemporalGraphConvolutionalNetworks forTrafﬁcFlowForecasting) 2019AAAI
 > * ASTGCN主要由三个独立部分组成，分别对交通流的三个时间特性进行建模，即邻近、每日和每周的依赖关系。其中每个独立部分又包含两部分:1)时空注意力机制，有效地捕捉交通数据中的动态时空关联; 2)时空卷积，即同时使用图卷积来捕捉空间模式和常用的标准卷积来描述时间特征。对三个分量的输出进行加权融合，生成最终预测结果
 > * [论文下载链接](https://github.com/Davidham3/ASTGCN/blob/master/papers)
 > * [实现链接tf](https://github.com/guoshnBJTU/ASTGCN)
