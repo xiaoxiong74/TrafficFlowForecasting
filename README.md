@@ -6,11 +6,6 @@
 > * [论文下载链接](https://arxiv.org/abs/1811.05320?context=stat.ML)
 > * [实现链接tf](https://github.com/lehaifeng/T-GCN)
 
-* 基于时空图卷积网络(STGCN)交通流预测(Spatio-TemporalGraphConvolutionalNetworks: ADeepLearningFramework forTrafﬁcForecasting) 2018IJCAI
-> * 一种新的深度学习结构，时空图卷积网络,由多个时空卷积块组成，时空卷积块由图卷积层和卷积序列学习层组合而成,对时空依赖关系进行建模
-> * [论文下载链接](https://arxiv.org/abs/1709.04875v4)
-> * [实现链接tf](https://github.com/VeritasYin/STGCN_IJCAI-18)
-
 * 基于注意力机制的时空图卷积网络(ASTGCN)交通流预测(AttentionBasedSpatial-TemporalGraphConvolutionalNetworks forTrafﬁcFlowForecasting) 2019AAAI
 > * ASTGCN主要由三个独立部分组成，分别对交通流的三个时间特性进行建模，即邻近、每日和每周的依赖关系。其中每个独立部分又包含两部分:1)时空注意力机制，有效地捕捉交通数据中的动态时空关联; 2)时空卷积，即同时使用图卷积来捕捉空间模式和常用的标准卷积来描述时间特征。对三个分量的输出进行加权融合，生成最终预测结果
 > * [论文下载链接](https://github.com/Davidham3/ASTGCN/blob/master/papers)
@@ -27,8 +22,13 @@
 > * [论文下载链接](https://ieeexplore.ieee.org/document/8606218)
 > * 暂无实现
 
-* 
-> * 基于扩散卷积循环神经网络(DCRNN)的交通流预测(DIFFUSION CONVOLUTIONAL RECURRENT NEURAL NETWORK: DATA-DRIVEN TRAFFIC FORECASTING
+
+* 基于时空图卷积网络(STGCN)交通流预测(Spatio-TemporalGraphConvolutionalNetworks: ADeepLearningFramework forTrafﬁcForecasting) 2018IJCAI
+> * 一种新的深度学习结构，时空图卷积网络,由多个时空卷积块组成，时空卷积块由图卷积层和卷积序列学习层组合而成,对时空依赖关系进行建模
+> * [论文下载链接](https://arxiv.org/abs/1709.04875v4)
+> * [实现链接tf](https://github.com/VeritasYin/STGCN_IJCAI-18)
+
+ * 基于扩散卷积循环神经网络(DCRNN)的交通流预测(DIFFUSION CONVOLUTIONAL RECURRENT NEURAL NETWORK: DATA-DRIVEN TRAFFIC FORECASTING
 ) 2018ICLR
 > * 将交通流建模为有向图上的扩散过程，并引入扩散卷积递归神经网络（DCRNN）,DCRNN使用图上的双向随机游走捕获空间依赖性，以及使用具有调度采样的编码器 - 解码器架构的时间依赖性
 > * [论文下载链接](https://arxiv.org/abs/1707.01926)
