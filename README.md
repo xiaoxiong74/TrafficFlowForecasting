@@ -35,6 +35,18 @@
 > * [实现链接tf](https://github.com/liyaguang/DCRNN)
 > * [实现链接pytorch](https://github.com/chnsh/DCRNN_PyTorch)
 
-* 基于Conv-LSTM交通流预测(Short-term traffic flow prediction with Conv-LSTM)
+* 基于Conv-LSTM交通流预测(Short-term traffic flow prediction with Conv-LSTM) 2017WCSP
 > * 利用ConvLSTM模块对相邻区域的短时交通流数据进行处理，提取时空特征;利用双向LSTM对预测点历史交通数据进行处理，提取交通流数据的周期特征。提出了一种无需数据预处理和数据特征提取的端到端深度学习短时交通流预测体系结构。最后，集中时空特征和周期特征对交通流进行预测
 > * [论文下载链接](https://ieeexplore.ieee.org/document/8171119)
+
+* 基于时间信息增强LSTM（T-LSTM）的单个路段流量预测(T-LSTM: A Long Short-Term Memory Neural Network Enhanced by Temporal Information for Traffic Flow Prediction) 2019IEEE
+> * 提出了一种时间信息增强LSTM（T-LSTM）来预测单个路段的交通流量。考虑到每天同一时间的交通流量的相似特性，该模型可以通过捕获交通流量与时间信息之间的内在关联性来提高预测准确性
+> * [论文下载链接](https://www.researchgate.net/publication/334619357_T-LSTM_A_Long_Short-Term_Memory_Neural_Network_Enhanced_by_Temporal_Information_for_Traffic_Flow_Prediction)
+
+* 基于深度学习的多分枝预测模型来预测城市的短期交通流量（City-Wide Traffic Flow Forecasting Using a Deep Convolutional Neural Network）2020SENSORS
+> * 提出了一种基于深度学习的多分枝预测模型来预测城市的短期交通流量。在这里它引入了外部因素这一概念，例如天气、突发交通事故、节假日等都会影响交通流量。该模型利用时空交通流矩阵和外部因素作为输入，推断并输出整个路网未来的短期交通状态(流量)。为了模拟当前路段和相邻路段之间的交通流的空间相关性，采用多层全卷积框架进行互相关计算，并从局部到全局尺度提取分层空间依赖关系。同时，通过从时间轴上的近、中、远三个时间段构造交通流矩阵组成的高维张量，从历史观测中提取交通流的时间贴近性和周期性。同时考虑外部因素，用完全连接的神经网络进行训练，然后与TFFNet也就是这个模型的框架的主成分的输出进行融合。多分支模型被自动训练以拟合隐藏在交通流矩阵中的复杂模式，直到通过反向传播方法达到预定义的收敛标准
+> * [论文下载链接](https://www.mdpi.com/1424-8220/20/2/421/xml)
+
+* 基于多范围注意力双组分GCN（MRA-BGCN）的交通流预测(Multi-Range Attentive Bicomponent Graph Convolutional Network for Traffic Forecasting) 2020AAAI
+> * 一种用于交通预测的新型深度学习模型。首先根据路网距离构建节点图，并根据各种边沿交互模式构建边图。然后，使用双分量图卷积实现节点和边的交互。引入了多范围注意力机制来汇总不同邻域范围内的信息，并自动了解不同范围的重要性。最新研究主要集中在通过在整个固定加权图中利用图卷积网络（GCN）来对空间依赖性进行建模
+> * [论文下载链接](https://www.researchgate.net/publication/342536930_Multi-Range_Attentive_Bicomponent_Graph_Convolutional_Network_for_Traffic_Forecasting)
