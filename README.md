@@ -1,4 +1,4 @@
-# 交流流量预测应用方案收集(欢迎补充、持续更新...)
+# 交通流量预测应用方案收集(欢迎补充、持续更新...)
 
 * 基于时间图卷积网络(T-GCN)交通流预测（A Temporal Graph Convolutional Network for Trafﬁc Prediction
 ） 2019IEEE
