@@ -50,3 +50,9 @@
 * 基于多范围注意力双组分GCN（MRA-BGCN）的交通流预测(Multi-Range Attentive Bicomponent Graph Convolutional Network for Traffic Forecasting) 2020AAAI
 > * 一种用于交通预测的新型深度学习模型。首先根据路网距离构建节点图，并根据各种边沿交互模式构建边图。然后，使用双分量图卷积实现节点和边的交互。引入了多范围注意力机制来汇总不同邻域范围内的信息，并自动了解不同范围的重要性。最新研究主要集中在通过在整个固定加权图中利用图卷积网络（GCN）来对空间依赖性进行建模
 > * [论文下载链接](https://www.researchgate.net/publication/342536930_Multi-Range_Attentive_Bicomponent_Graph_Convolutional_Network_for_Traffic_Forecasting)
+
+* 基于时空同步图卷积网络STSGCN的交通流量预测(Spatial-Temporal Synchronous Graph Convolutional Networks: A New Framework for Spatial-Temporal Network Data Forecasting) 2020AAAI
+> * 提出了一种新颖的模型，即时空同步图卷积网络（STSGCN），用于时空网络数据预测。该模型能够通过精心设计的时空同步建模机制有效捕获复杂的局部时空相关性。同时，在模型中设计了不同时间段的多个模块，以有效地捕获局部时空图中的异质性。
+> * [论文下载链接](https://github.com/xiaoxiong74/TrafficFlowForecasting/blob/master/papers/AAAI2020-STSGCN.pdf)
+> * [中文解读链接](https://mp.weixin.qq.com/s/P54StaLV5oWcKTpFwzfMDQ)
+> * [实现链接mx](https://github.com/mcdragon/STSGCN)
